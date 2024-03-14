@@ -1,0 +1,58 @@
+hex byte addition                   claude_byte_add.py
+0102030405060708090A0B0C0D0E0F00    file1.txt
+11111111111111111111111111111111    text6.txt
+12131415161718191A1B1C1D1E1F2011       RESULT
+
+hex nibble addition                 claude_nibb_add.py 
+0102030405060708090A0B0C0D0E0F00    file1.txt
+11111111111111111111111111111111    text6.txt
+12131415161718191A1B1C1D1E1F1011       RESULT
+
+
+hex byte subtraction                claude_byte_sub.py
+00000000000000000000000000000000    text7.txt
+11111111111111111111111111111111    text6.txt
+EFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEF       RESULT
+
+hex nibble subtraction              claude_sub_nib.py
+00000000000000000000000000000000    text7.txt
+11111111111111111111111111111111    text6.txt
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF       RESULT
+
+
+byte xor                            claude_xor.py
+0102030405060708090A0B0C0D0E0F00    file1.txt
+11111111111111111111111111111111    text6.txt
+1013121514171619181B1A1D1C1F1E11       RESULT
+
+nibble xor                          claude_xor_nibb.py              
+0102030405060708090A0B0C0D0E0F00    file1.txt
+11111111111111111111111111111111    text6.txt
+1013121514171619181B1A1D1C1F1E11       RESULT
+
+the above function tests were performed on claude_byte_add.py	claude_nibb_add.py   claude_byte_sub.py 
+claude_sub_nib.py         claude_xor.py			claude_xor_nibb.py
+
+ALL RESULTS PASS AS CORRECT
+Now I intend to test the best tkinter script I have to enable better data handling by human operator.
+claude_tkinter_revised2.py
+
+hex byte addition 
+12131415161718191A1B1C1D1E1F2011
+CORRECT
+
+hex nibble addition
+12131415161718191A1B1C1D1E1F1011
+CORRECT
+
+hex byte subtraction  
+EFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEF
+CORRECT
+
+hex nibble subtraction
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+CORRECT
+
+byte xor
+1013121514171619181B1A1D1C1F1E11
+CORRECT
