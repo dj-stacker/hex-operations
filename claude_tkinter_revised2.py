@@ -191,7 +191,7 @@ def save_result():
             file.write(result_text.get('1.0', tk.END))
 
 root = tk.Tk()
-root.title("Hex Operations- Claude Tk Revised")
+root.title("Hex Operations- Claude Tk Revised 2")
 root.geometry("970x600")
 root['bg'] = '#def8fc'
 
