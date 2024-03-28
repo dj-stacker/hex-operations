@@ -1,4 +1,5 @@
-Readme.txt   claude_tkinter_revised2.py
+Readme.txt   claude_tkinter_revised2.py is deprecated. claude_tkr5.py is the current best script. 
+
 You can combine two hex strings of 16 bytes and the result will stay the same length and be reversable.
 The most elegant way to do this is with the xor operation, as it is its own inverse.
 To recover the original data just run the xor operation again using the result and one of the input files 
