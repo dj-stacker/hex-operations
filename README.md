@@ -38,5 +38,5 @@ print("Timestamp is:", ts)
 ````
 The created filename should be composed of the ORIGINAL filenames, not the field names when selecting files in tkinter.
 
-If you just want to join two files into one file use cat_clawed.py. It was finnally revised correctly by Claude.
+If you just want to join two files into one file use cat_clawed.py. It was finally revised correctly by Claude.
 See the individual function python and bash scripts to quickly do this math without much time invested.
