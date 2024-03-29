@@ -1,4 +1,6 @@
 Readme.txt   claude_tkinter_revised2.py is deprecated. claude_tkr5.py is the current best script. 
+It solves all the problems outlined below:
+
 
 You can combine two hex strings of 16 bytes and the result will stay the same length and be reversable.
 The most elegant way to do this is with the xor operation, as it is its own inverse.
@@ -35,3 +37,6 @@ print("Date and time is:", dt)
 print("Timestamp is:", ts)
 ````
 The created filename should be composed of the ORIGINAL filenames, not the field names when selecting files in tkinter.
+
+If you just want to join two files into one file use cat_clawed.py. It was finnally revised correctly by Claude.
+See the individual function python and bash scripts to quickly do this math without much time invested.
